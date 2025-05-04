@@ -1,5 +1,18 @@
 from math import tan, pi
+"""
 
+def Polygon_area():
+    try:
+        side = int(input("Input the number of side: "))
+        size = float(input("Input the size of side: "))
+        Area = (side * (size ** 2)) / (4 * tan(pi / side))
+        return Area
+    except ValueError:
+        print("Input the correct Value")
+
+
+#print(Polygon_area())
+"""
 
 def Polygon_area(side, size):
     if side < 3:
